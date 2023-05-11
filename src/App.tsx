@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import './App.css';
 import 'antd/dist/reset.css'
-import {BrowserRouter, HashRouter, Link, Navigate, Route, Routes} from "react-router-dom";
+import {HashRouter, Link, Navigate, Route, Routes} from "react-router-dom";
 import {LoginPage} from "./components/Login/Login";
 import {connect, Provider} from "react-redux";
 import {compose} from "redux";
